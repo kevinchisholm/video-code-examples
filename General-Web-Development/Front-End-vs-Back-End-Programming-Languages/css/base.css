@@ -1,0 +1,133 @@
+body {
+    background-color: #B0C4DE;
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+nav{margin: 20px auto;width: 90%;}
+nav ul, nav li{list-style-type:none;}
+nav, nav li{
+    background-color: #395F90;
+}
+nav li{
+    display: inline-block;
+    line-height: 50px;
+    width: 15%;
+}
+nav li:hover{
+    background-color: #FFE9C5;
+    cursor: pointer;
+}
+nav li a{
+    display: block;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    padding: 2%;
+    text-align: center; 
+}
+nav li a:hover{
+    color: #333;
+}
+section {
+    margin: 20px auto;
+    width: 90%;
+}
+header {
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+    border: 4px solid #BFB39F;
+    background-color: #EDEDED;
+}
+header .logoCont{
+    display: inline-block;
+    height: 50px;
+    vertical-align: top;
+}
+header .logo {
+    width: 50px;
+}
+hgroup{
+    display: inline-block;
+    vertical-align: top;
+}
+h1, h2 {
+    padding: 20px;
+    vertical-align: top;
+}
+h1 {
+    background-color: #395F90;
+    color: #333;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1.title {
+    border: 4px solid #CCCCCC;
+    border-radius: 5px;
+}
+h2 {
+    color: #5A016D;
+}
+hgroup h3{
+    font-style: oblique;
+}
+#kcHeader h1, #kcHeader h2 {
+    background-color: #EDEDED;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+#kcHeader h1{
+    display: inline-block;
+    font-size: 32px;
+}
+#kcHeader h2{
+    font-size: 22px;   
+}
+
+/* ####################################### */
+
+.content{
+    display: inline-block;
+    width: 30%;
+    margin: 20px 5%;
+    padding: 10px 4%;
+    border: 4px solid #BFB39F;
+    background-color: #ededed;
+    vertical-align: top;
+}
+
+.content h4{
+    margin: 0;
+    font-weight: bold;
+    font-size: 32px;
+    color: #395F90;
+}
+
+.content .message{
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+@media screen and (max-width : 600px) {
+    .content{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
