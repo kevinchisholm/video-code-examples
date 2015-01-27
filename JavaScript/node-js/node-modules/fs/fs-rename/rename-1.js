@@ -32,5 +32,5 @@ var fs = require('fs');
 fs.rename(oldFilePath, newFilePath, function(err){
 	if (err){console.log(err); return; }
 
-	console.log('The file has been re-named!');
+	console.log('The file has been re-named to: ' + newFilePath);
 })
