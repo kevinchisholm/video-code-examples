@@ -17,6 +17,9 @@ var oldFilePath = fpFolder + oldFileName;
 //set a reference to the new file path
 var newFilePath = fpFolder + newFileName;
 
-//output the old and new file paths
-console.log('oldFilePath: ' + oldFilePath);
-console.log('newFilePath: ' + newFilePath);
+//use the fs object's rename method to re-name the file
+fs.rename(oldFilePath, newFilePath, function (err) {
+  if (err) {console.log(err); return; }
+
+  console.log('The file has been re-named to: ' + newFilePath);
+});
