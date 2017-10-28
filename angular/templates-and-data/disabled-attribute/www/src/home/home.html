@@ -1,0 +1,20 @@
+<!-- disable the button -->
+<button
+*ngIf="!buttonDisabled"
+(click)="buttonDisabled = true">
+Disable Button
+</button>
+
+<!-- enable the button -->
+<button
+*ngIf="buttonDisabled"
+(click)="buttonDisabled = false">
+Enable Button
+</button>
+
+<!-- the target button -->
+<button
+[disabled]="buttonDisabled"
+(click)="count = count + 1">
+I've been clicked {{count}} times.
+</button>
