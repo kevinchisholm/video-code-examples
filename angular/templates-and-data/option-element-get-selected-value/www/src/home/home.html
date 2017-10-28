@@ -1,0 +1,12 @@
+<article>
+    <h1>Angular Get Selected Option Value</h1>
+    <h2><span>Select a day:</span></h2>
+    <select (change)="selectChangeHandler($event)">
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+    </select>
+    <p><span>You selected: </span><b>{{selectedDay}}</b></p>
+</article>

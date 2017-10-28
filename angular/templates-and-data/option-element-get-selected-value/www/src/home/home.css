@@ -1,0 +1,35 @@
+article {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin: 10px 0 30px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #08457E;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+span{
+  font-weight: bold;
+}
+
+p b{
+  color: #800000;
+}
+
+select {
+  margin: 10px 0 25px;
+}
+
+div i {
+  margin-left: 10px;
+}

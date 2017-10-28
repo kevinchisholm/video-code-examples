@@ -1,0 +1,13 @@
+{
+  "name": "angular2-example",
+  "version": "1.0.0",
+  "description": "Angular2 Example",
+  "scripts": {
+    "start": "node web-server/app.js"
+  },
+  "author": "Kevin Chisholm",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}
