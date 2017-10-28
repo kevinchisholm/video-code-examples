@@ -1,0 +1,13 @@
+{
+  "name": "introduction-to-angular2-components",
+  "version": "1.0.0",
+  "description": "Introduction to Angular2 Components",
+  "scripts": {
+    "start": "node web-server/app.js"
+  },
+  "author": "Kevin Chisholm",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}

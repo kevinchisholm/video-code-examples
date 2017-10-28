@@ -1,0 +1,34 @@
+<button
+*ngIf="!contentHighlighted"
+(click)="contentHighlighted = true">
+Highlight Content
+</button>
+
+<button
+*ngIf="contentHighlighted"
+(click)="contentHighlighted = false">
+Un-highlight Content
+</button>
+
+<style>
+.highlighted{
+    outline: 1px solid #fd9696;
+    background-color: #fdfd96;
+}
+</style>
+
+<div [ngClass]="{highlighted: contentHighlighted}">
+    <h2>Content</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel risus nec est fermentum fringilla. Aenean non risus lorem. Nullam fermentum sed nisi et tempor. In sit amet eros mi. Duis vel lectus elementum, elementum lectus in, scelerisque dolor. Maecenas congue mi sed placerat eleifend. Nullam malesuada lacus ut vulputate maximus.
+    </p> 
+    <p>
+       Cras eu eleifend magna, non rhoncus lacus. Maecenas posuere et neque a egestas. Duis viverra mauris fermentum dictum pellentesque. Praesent faucibus arcu et faucibus hendrerit. Praesent ut sapien a eros vulputate finibus. 
+    </p>
+    <p>
+        Nulla eget bibendum sem, at elementum ipsum. Duis accumsan nunc et nisl condimentum imperdiet. Vivamus auctor mi tellus, vel dictum lacus euismod eu. Sed sed arcu at est pellentesque venenatis.
+    </p>
+    <p>
+        Fusce pretium interdum tempus. Cras eu ex volutpat, luctus enim at, rutrum dui. Suspendisse interdum, est sed vehicula rhoncus, eros nisl pellentesque elit, rhoncus laoreet quam metus ac nunc.
+    </p> 
+</div>

@@ -1,0 +1,18 @@
+<article>
+    <h1>Angular Get Radio Button Selected Value</h1>
+    <h2><span>Select a day:</span></h2>
+
+    <!-- for each day in the days array -->
+    <div *ngFor="let day of days">
+        <!-- create a radio button-->
+        <input
+        type="radio"
+        name="dayOfTheWeek"
+        value="{{day}}"
+        (change)="radioChangeHandler($event)">
+        <i>{{day}}</i>
+    </div>
+
+    <!-- the radio button change will be reflected below -->
+    <p><span>You selected: </span><b>{{selectedDay}}</b></p>
+</article>
