@@ -8,12 +8,12 @@ Code examples for the post: https://www.frontendvideo.org/angular/http-get/
 ## 1 - Clone this repo:
 
 ```
-git clone https://github.com/frontendvideo/angular.git
+git clone git@github.com:kevinchisholm/video-code-examples.git
 ```
 ##  2 - Go to this folder in your terminal:
 
 ```
-http/http-get-basics
+angular/http/http-get-basics
 ```
 
 ## 3 - Install dependencies:
