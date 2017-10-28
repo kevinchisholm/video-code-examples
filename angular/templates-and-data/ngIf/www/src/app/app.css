@@ -1,0 +1,123 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 22px;
+    background-color: #ededed;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.font-size-96px{
+  font-size: 96px!important;
+}
+
+.float-left-12 {
+  float: left;
+  margin: 0 12px 12px 0;
+}
+
+.fa.large-icon {
+  color: #08457E;
+}
+
+.banner-app .fa.fa-globe {
+  margin-right: 10px;
+  font-size: 96px;
+  font-weight: bold;
+  color: #E7FEFF;
+}
+
+.banner-app {
+    padding: 20px;
+    background-color:#08457E;
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.banner-app h1{
+  display: inline-block;
+}
+
+#main-nav {
+  background-color: #AEC6CF;
+  width:100%;
+  text-align: center;
+}
+
+#main-nav .link{
+  padding: 1%;
+  display: inline-block;
+  font-weight: bold
+}
+
+#main-nav .link:hover{
+  cursor: pointer;
+  background-color:#08457E;
+  color: #fff;
+}
+
+#main-nav .link:hover{
+  cursor: pointer;
+}
+
+section {
+    width: 60%;
+    margin: 0 auto;
+}
+
+section.page-content p {
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+section.page-content h1 {
+  margin: 20px 0;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+footer {
+  margin: 50px 0;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  border-top: 1px solid #ccc;
+}
+
+@media screen and (max-width : 540px) {
+  .banner-app h1{
+    display: block;
+  }
+}
+
+/* overrides for this example */
+body{
+  width: 99%;
+  margin-top: 10px;
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+div {
+  margin-bottom: 20px;
+}
+
