@@ -1,0 +1,9 @@
+<div>
+    <h2>Enter some text, and then press the "tab" key.</h2>
+    <p>(or just click outside of the text box)</p>
+    <h3>You have made {{changeCount}} changes so far.</h3>
+    <input
+    type="text"
+    (change)="changeCount = changeCount + 1"
+    placeholder="Enter some text here" />
+</div>
