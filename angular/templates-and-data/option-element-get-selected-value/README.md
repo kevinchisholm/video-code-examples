@@ -1,7 +1,7 @@
 [![Angular Logo](https://sub1.kevinchisholm.com/blog/images/angularjs-logo-small.png)](https://www.youtube.com/user/kevinchisholmvideo/search?query=angular)
 
 # Angular – How do I get the value of the selected dropdown menu item?
-## Code examples for My YouTube Channel's Video Angular routing posts: https://www.youtube.com/user/kevinchisholmvideo/search?query=angular
+## Code examples for My YouTube Channel: https://www.youtube.com/user/kevinchisholmvideo/search?query=angular
 
 # How to run the example code:
 

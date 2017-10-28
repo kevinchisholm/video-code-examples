@@ -1,5 +1,5 @@
 # How do I disable an HTML element with Angular ?
-## Code examples for My YouTube Channel's Video Angular routing posts: https://www.youtube.com/user/kevinchisholmvideo/search?query=angular
+## Code examples for My YouTube Channel: https://www.youtube.com/user/kevinchisholmvideo/search?query=angular
 
 # How to run the example code:
 
