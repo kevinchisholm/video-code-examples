@@ -1,0 +1,17 @@
+<section class="page-content">
+  <div class="destinations-container">
+      <h2>Packages</h2>
+        <div>
+        <img *ngIf='!destinations.length' style="display: block;width: 120px;margin: 50px auto;" class="ajax-loader-boot" src="images/ajax-loader-ellipsis.gif" alt="">
+        </div>
+        <ul class="destinations">
+          <li *ngFor="let destination of destinations" class="destination">
+            <div class="box destination-wrapper">
+              <span class="flag {{destination.countryCode}}"></span>
+              <span><strong>{{destination.name}}</strong> </span>
+              <span>{{destination.duration}} for <span class="currency">$</span><span class="price">{{destination.price}}</span></span>
+            </div>
+          </li>
+        </ul>
+  </div>
+</section>
