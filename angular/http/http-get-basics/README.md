@@ -1,7 +1,7 @@
 [![Angular Logo](https://www.frontendvideo.org/wp-content/uploads/angular-logo-200-200x160.png)](https://www.frontendvideo.org/angular/http-get/)
 
-# Angular
-Code examples for the post: https://www.frontendvideo.org/angular/http-get/
+# Angular http.get Basics
+## Code examples for My YouTube Channel's Video Angular routing posts: https://www.youtube.com/user/kevinchisholmvideo/search?query=angular
 
 # How to run the example code:
 
