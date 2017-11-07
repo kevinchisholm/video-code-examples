@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "css" method | basic</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "css" method | basic</h1>
+        
+        <p>Click me to make me red</p>
+        <p>Click me to make me red</p>
+        <p>Click me to make me red</p>
+        <p>Click me to make me red</p>
+        <p>Click me to make me red</p>
+
+        <button>Start Over</button>
+
+        <script>
+            //when a paragraph is clicked
+            $('p').click(function () {
+                //change the style attribute's color property to "red"
+                $(this).css('color','red');
+            });
+
+            //when the button is clicked
+            $('button').click(function () {
+                //reload the page
+                window.location.reload();
+            }); 
+        </script>
+        <style>p:hover{cursor: pointer;}</style>
+    </body> 
+</html>

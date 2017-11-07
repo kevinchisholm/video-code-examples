@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "addClass" method | basic</title>
+        <style>.red{color: red;}</style>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "addClass" method | basic</h1>
+        
+        <p>I want to be red</p>
+        <section>I <strong>don't</strong> want to be red</section>
+        <p>I want to be red</p>
+        <p>I want to be red</p>
+
+        <button id="1">Add "red" class to paragraphs</button>
+
+        <button id="2">Start Over</button>
+
+        <script>
+            //when button#1 is clicked
+            $('button#1').click(function () {
+                //add the "red" class to the paragraph
+                $('p').addClass('red');
+            });
+
+            //when button#2 is clicked
+            $('button#2').click(function () {
+                //reload the page
+                window.location.reload();
+            }); 
+        </script>
+    </body> 
+</html>

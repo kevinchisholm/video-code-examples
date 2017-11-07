@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "toggleClass" method</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "toggleClass" method</h1>
+        
+        <style>
+            .red{
+                color: red;
+            }
+        </style>
+
+        <p>Click me to toggle the "red" class</p>
+
+        <script>
+            //when a paragraph is clicked
+            $('p').click(function () {
+                //toggle its "red" class
+                $(this).toggleClass('red');
+            });
+        </script>
+        <style>p:hover{cursor: pointer;}</style>
+    </body> 
+</html>

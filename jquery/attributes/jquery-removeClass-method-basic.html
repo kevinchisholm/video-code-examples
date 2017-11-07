@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "removeClass" method | basic</title>
+        <style>.red{color: red;}</style>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "removeClass" method | basic</h1>
+        
+        <p class="red">I want to be black</p>
+        <section class="red">I <strong>don't</strong> want to be black</section>
+        <p class="red">I want to be black</p>
+        <p class="red">I want to be black</p>
+
+        <button id="1">Remove "red" class from paragraphs</button>
+
+        <button id="2">Start Over</button>
+
+        <script>
+            //when button#1 is clicked
+            $('button#1').click(function () {
+                //remove the "red" class from the paragraph
+                $('p').removeClass('red');
+            });
+
+            //when button#2 is clicked
+            $('button#2').click(function () {
+                //reload the page
+                window.location.reload();
+            }); 
+        </script>
+    </body> 
+</html>

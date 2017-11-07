@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+    <html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>jQuery "css" method | advanced</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>   
+    <body>
+        <h1>jQuery "css" method | advanced</h1>
+        
+        <p>Click me to add multiple styles</p>
+        <p>Click me to add multiple styles</p>
+        <p>Click me to add multiple styles</p>
+        <p>Click me to add multiple styles</p>
+        <p>Click me to add multiple styles</p>
+
+        <button>Start Over</button>
+
+        <script>
+            //when a paragraph is clicked
+            $('p').click(function () {
+                //change the style attribute's properties
+                $(this).css({
+                    'margin' : '20px 15px',
+                    'padding' :'10px',
+                    'width' :'50%',
+                    'color' : '#800000',
+                    'background-color' : '#ededed',
+                    'font-weight' : 'bold',
+                    'font-size' : '32px',
+                    'font-family' : 'HelveticaNeue-Light',
+                    'border' : '1px solid #ccc'
+                });
+            });
+
+            //when the button is clicked
+            $('button').click(function () {
+                //reload the page
+                window.location.reload();
+            }); 
+        </script>
+        <style>p:hover{cursor: pointer;}</style>
+    </body> 
+</html>
