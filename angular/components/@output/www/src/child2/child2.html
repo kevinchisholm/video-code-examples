@@ -1,0 +1,21 @@
+<section class="child-content">
+        <h2>Child Component # 2</h2>
+        <i class="fa fa-child large-icon float-left-12"></i>
+        <h3>User info to pass to parent component:</h3>
+        <p class="form-input">
+            <label>User Name</label>
+            <input
+            type="text"
+            (keyup)="onNameChange()"
+            [(ngModel)]="userName"
+            placeholder="Enter user name here">
+        </p>
+        <p class="form-input">
+            <label>User Phone Number</label>
+            <input
+            type="text"
+            (keyup)="onPhoneChange()"
+            [(ngModel)]="userPhone"
+            placeholder="Enter user phone number here">
+        </p>
+    </section>

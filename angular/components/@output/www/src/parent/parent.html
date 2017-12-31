@@ -1,0 +1,37 @@
+<section
+class="page-content parent">
+    <div class="hgroup">
+            <h1 class="banner-app">
+                <img src="images/angularjs-logo.png" alt="">
+                <span>Angular @output</span>
+            </h1>
+            <h2 class="banner-app">Parent Component</h2>
+    </div>
+    <header>
+        <i class="fa fa-user-circle large-icon font-size-96px float-left-12" aria-hidden="true"></i>
+        <p>
+            This is the parent component. Enter some text in the input fields below and you will see that data passed down to the child components.
+        </p>
+    </header>
+    <div class="data-container">
+            <p>
+                <strong>Name: </strong>  {{userName}}
+            </p>
+            <p>
+                <strong>Phone: </strong>  {{userPhone}}
+            </p>
+    </div>
+
+    <hr />
+
+    <div class="hgroup">
+            <h2 class="banner-app">Children Components</h2>
+    </div>
+
+    <child1
+    (nameEvent)="nameEventHander($event)"
+    (phoneEvent)="phoneEventHander($event)"></child1>
+    <child2
+    (nameEvent)="nameEventHander($event)"
+    (phoneEvent)="phoneEventHander($event)"></child2>
+</section>
