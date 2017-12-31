@@ -1,0 +1,13 @@
+{
+  "name": "input-overview",
+  "version": "1.0.0",
+  "description": "Introduction to parent-child communication with @input",
+  "scripts": {
+    "start": "node web-server/app.js"
+  },
+  "author": "Kevin Chisholm",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}
