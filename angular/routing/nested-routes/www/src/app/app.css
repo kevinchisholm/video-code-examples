@@ -127,6 +127,19 @@ section.page-content .product-nested-route h1 .product-id{
   text-transform: capitalize;
 }
 
+section.page-content .product-nested-route .details-container img{
+  display: block;
+  float: left;
+  width: 200px;
+  margin: 10px 20px 10px 0;
+  padding: 20px;
+  background-color: #AEC6CF;
+}
+
+section.page-content .product-nested-route .details-container .descripton{
+vertical-align: top;
+}
+
 section.page-content .product-name{
   text-transform: capitalize;
   color: #015a6c;
