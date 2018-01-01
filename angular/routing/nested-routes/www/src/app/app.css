@@ -150,6 +150,12 @@ section.page-content .product-nested-route h1 .product-id{
   text-transform: capitalize;
 }
 
+section.page-content .product-nested-route h1 .fa {
+  margin: 0 10px 0 0;
+  font-size: 32px;
+  color: #08457E;
+}
+
 section.page-content .product-nested-route .details-container img{
   display: block;
   float: left;
@@ -203,6 +209,19 @@ section.page-content .product-nested-route.reviews .details-container .reviews .
 
 section.page-content .product-nested-route.reviews .details-container .reviews .review-text i{
   font-style: italic;
+}
+
+section.page-content .product-nested-route.add-ons ul {
+  margin: 10px 0 0 20px;
+}
+
+section.page-content .product-nested-route.add-ons ul li {
+  margin: 10px 0;
+}
+
+section.page-content .product-nested-route.add-ons ul li strong{
+  margin: 0 10px 0 0;
+  font-weight: bold;
 }
 
 section.page-content .product-name{
