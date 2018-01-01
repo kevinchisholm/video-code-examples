@@ -6,6 +6,7 @@ import {AppComponent} from './app.component';
 import {HomeComponent} from '../home/home.component';
 import {ProductsComponent} from '../products/products.component';
 import {ProductComponent} from '../products/product.component';
+import {ProductDetailsComponent} from '../products/productDetails.component';
 import {ProductReviewsComponent} from '../products/productReviews.component';
 import {ProductAddOnsComponent} from '../products/productAddOns.component';
 import {AboutComponent} from '../about/about.component';
@@ -24,6 +25,7 @@ import {routing} from './routes';
     HomeComponent,
     ProductsComponent,
     ProductComponent,
+    ProductDetailsComponent,
     ProductReviewsComponent,
     ProductAddOnsComponent,
     AboutComponent

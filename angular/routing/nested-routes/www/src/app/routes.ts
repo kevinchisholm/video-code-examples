@@ -4,6 +4,7 @@ import {HomeComponent} from '../home/home.component';
 import {AboutComponent} from '../about/about.component';
 import {ProductsComponent} from '../products/products.component';
 import {ProductComponent} from '../products/product.component';
+import {ProductDetailsComponent} from '../products/productDetails.component';
 import {ProductReviewsComponent} from '../products/productReviews.component';
 import {ProductAddOnsComponent} from '../products/productAddOns.component';
 
@@ -16,7 +17,8 @@ const routes: Routes = [
         path: 'products/:productId',
         component: ProductComponent,
         children: [
-            {path: '', redirectTo: 'reviews', pathMatch: 'full'}, 
+            {path: '', redirectTo: 'details', pathMatch: 'full'}, 
+            {path: 'details', component: ProductDetailsComponent}, 
             {path: 'reviews', component: ProductReviewsComponent}, 
             {path: 'addons', component: ProductAddOnsComponent}
         ]
