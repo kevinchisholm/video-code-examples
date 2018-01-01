@@ -1,15 +1,12 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
+import { ProductService } from './product.service';
 
 @Component({
   selector: 'product-reviews',
   templateUrl: 'src/products/productReviews.html'
 })
 export class ProductReviewsComponent {
-  constructor() {   
+  constructor(private productService: ProductService) {
 
-  }
-
-  public ngOnInit () {
-    console.warn('ProductReviewsComponent - > ngOnInit');
   }
 }

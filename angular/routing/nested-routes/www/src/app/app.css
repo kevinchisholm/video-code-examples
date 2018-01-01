@@ -110,6 +110,29 @@ section.page-content .products-nav-container .products-nav li:hover a{
   color: #fff;
 }
 
+section.page-content.product nav{
+  display: block;
+  background-color:  #c6cfae;
+}
+
+section.page-content.product nav a {
+  display: inline-block;
+  padding: 20px;
+  color: #333;
+}
+
+section.page-content.product nav a .product-name{
+  text-transform: capitalize;
+  color: #333;
+}
+
+section.page-content.product nav a:hover,
+section.page-content.product nav a:hover .product-name{
+  cursor: pointer;
+  background-color:  #08457E;
+  color: #fff;
+}
+
 section.page-content .product-nested-route{
   width: 100%;
   margin: 50px 0;
@@ -120,7 +143,7 @@ section.page-content .product-nested-route{
 section.page-content .product-nested-route h1{
   padding: 10px;
   background-color: #ffe8ff;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 section.page-content .product-nested-route h1 .product-id{
@@ -137,7 +160,27 @@ section.page-content .product-nested-route .details-container img{
 }
 
 section.page-content .product-nested-route .details-container .descripton{
-vertical-align: top;
+  vertical-align: top;
+}
+
+section.page-content .product-nested-route.reviews h1{
+  color: #015a6c;
+}
+
+section.page-content .product-nested-route.reviews .details-container .reviews .review-text{
+  font-size: 20px;
+}
+
+section.page-content .product-nested-route.reviews .details-container .reviews .review-text strong{
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #ededed;
+  font-weight: bold;
+  color:#080a7e;
+}
+
+section.page-content .product-nested-route.reviews .details-container .reviews .review-text i{
+  font-style: italic;
 }
 
 section.page-content .product-name{
