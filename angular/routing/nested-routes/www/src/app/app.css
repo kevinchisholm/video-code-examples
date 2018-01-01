@@ -77,6 +77,42 @@ section.page-content h1 {
    font-weight: bold;
 }
 
+section.page-content .products-nav-container {
+  width: 100%;
+  margin: 50px 0;
+  padding: 20px;
+  background-color: #fff;
+}
+
+section.page-content .products-nav-container ul,
+section.page-content .products-nav-container ul li{
+  list-style-type: none;
+}
+
+section.page-content .products-nav-container .products-nav li {
+  display: inline-block;
+  margin:  0 10px 0 0;
+  padding: 10px;
+  background-color: #AEC6CF;
+  font-weight: bold;
+}
+
+section.page-content .products-nav-container .products-nav li a{
+  color: #333;
+}
+
+section.page-content .products-nav-container .products-nav li:hover{
+  cursor: pointer;
+  background-color: #08457E;
+
+}
+
+section.page-content .products-nav-container .products-nav li:hover a{
+  color: #fff;
+}
+
+
+
 section.page-content .product-nested-route{
   width: 100%;
   margin: 50px 0;
