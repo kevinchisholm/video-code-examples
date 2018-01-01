@@ -3,7 +3,7 @@ body {
     font-weight: 300;
     font-size: 22px;
     background-color: #ededed;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 section {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -75,6 +75,13 @@ section.page-content h1 {
   margin: 20px 0;
    font-size: 32px;
    font-weight: bold;
+}
+
+section.page-content .product-nested-route{
+  width: 100%;
+  margin: 50px 0;
+  padding: 20px;
+  background-color: #fff;
 }
 
 footer {
