@@ -130,9 +130,9 @@ section.page-content .product-nested-route h1 .product-id{
 section.page-content .product-nested-route .details-container img{
   display: block;
   float: left;
-  width: 200px;
+  width: 150px;
   margin: 10px 20px 10px 0;
-  padding: 20px;
+  padding: 10px;
   background-color: #ededed;
 }
 
