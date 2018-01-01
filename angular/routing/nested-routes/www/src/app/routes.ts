@@ -9,7 +9,7 @@ import {ProductReviewsComponent} from '../products/productReviews.component';
 import {ProductAddOnsComponent} from '../products/productAddOns.component';
 
 const routes: Routes = [
-    {path: '', redirectTo: '/home', pathMatch: 'full'},
+    {path: '', redirectTo: '/products', pathMatch: 'full'},
     {path: 'home', component: HomeComponent},
     {path: 'about', component: AboutComponent},
     {path: 'products', component: ProductsComponent},
