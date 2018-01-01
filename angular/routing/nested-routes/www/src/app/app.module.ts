@@ -6,6 +6,7 @@ import {AppComponent} from './app.component';
 import {HomeComponent} from '../home/home.component';
 import {ProductsComponent} from '../products/products.component';
 import {ProductComponent} from '../products/product.component';
+import {ProductService} from '../products/product.service';
 import {ProductDetailsComponent} from '../products/productDetails.component';
 import {ProductReviewsComponent} from '../products/productReviews.component';
 import {ProductAddOnsComponent} from '../products/productAddOns.component';
@@ -17,6 +18,7 @@ import {routing} from './routes';
   providers: [
     BaseRequestOptions,
     HttpModule,
+    ProductService,
     {provide: LocationStrategy, useClass: HashLocationStrategy},
   ],
   imports: [BrowserModule, HttpModule, routing],

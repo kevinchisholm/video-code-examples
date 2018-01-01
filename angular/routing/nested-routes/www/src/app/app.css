@@ -104,7 +104,6 @@ section.page-content .products-nav-container .products-nav li a{
 section.page-content .products-nav-container .products-nav li:hover{
   cursor: pointer;
   background-color: #08457E;
-
 }
 
 section.page-content .products-nav-container .products-nav li:hover a{
@@ -118,7 +117,15 @@ section.page-content .product-nested-route{
   background-color: #fff;
 }
 
+section.page-content .product-nested-route h1{
+  padding: 10px;
+  background-color: #ffe8ff;
+  font-size: 18px;
+}
 
+section.page-content .product-nested-route h1 .product-id{
+  text-transform: capitalize;
+}
 
 section.page-content .product-name{
   text-transform: capitalize;

@@ -1,20 +1,20 @@
-import {Component} from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { ProductService } from './product.service';
 
 @Component({
   selector: 'product',
   templateUrl: 'src/products/product.html'
 })
 export class ProductComponent {
-  productName: string = ''
-
-  constructor(private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute,
+    private productService: ProductService) {
 
   }
 
   public ngOnInit () {
     this.route.params.subscribe((params: any) => {
-      this.productName = params.productId;
+      this.productService.data.productId = params.productId;
     });
   }
 }
