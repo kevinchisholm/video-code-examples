@@ -1,19 +1,19 @@
-[![Angular Logo](https://www.frontendvideo.org/wp-content/uploads/angular-logo-200-200x160.png)](https://www.frontendvideo.org/angular/routing-basics/)
+[![Angular Logo](https://www.frontendvideo.org/wp-content/uploads/angular-logo-200-200x160.png)](https://www.frontendvideo.org/angular/nested-routes/)
 
-# Angular Routing Basics
-Code examples for the post: https://www.frontendvideo.org/angular/routing-basics/
+# Angular Nested Routes
+Code examples for the post: https://www.frontendvideo.org/angular/nested-routes/
 
 # How to run the example code:
 
 ## 1 - Clone this repo:
 
 ```
-git clone https://github.com/frontendvideo/angular.git
+git clone git@github.com:kevinchisholm/video-code-examples.git
 ```
 ##  2 - Go to this folder in your terminal:
 
 ```
-routing/routing-basics
+angular/routing/nested-routes
 ```
 
 ## 3 - Install dependencies:
