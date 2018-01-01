@@ -111,13 +111,18 @@ section.page-content .products-nav-container .products-nav li:hover a{
   color: #fff;
 }
 
-
-
 section.page-content .product-nested-route{
   width: 100%;
   margin: 50px 0;
   padding: 20px;
   background-color: #fff;
+}
+
+
+
+section.page-content .product-name{
+  text-transform: capitalize;
+  color: #015a6c;
 }
 
 footer {
