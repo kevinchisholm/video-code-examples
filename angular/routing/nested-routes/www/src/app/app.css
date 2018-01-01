@@ -228,6 +228,14 @@ section.page-content .product-nested-route.add-ons ul li strong{
   font-weight: bold;
 }
 
+section.page-content .product-nested-route.add-ons img.product{
+  display: block;
+  width: 150px;
+  margin: 20px  0;
+  padding: 10px;
+  background-color: #ededed;
+}
+
 section.page-content .product-name{
   text-transform: capitalize;
   color: #015a6c;
