@@ -1,8 +1,17 @@
 <nav id="main-nav">
     <ul>
-        <li [routerLink]="[ '/home']" class="link">Home</li>
-        <li [routerLink]="[ '/products']" class="link">Products</li>
-        <li [routerLink]="[ '/about']" class="link">About</li>
+        <li
+        [routerLink]="[ '/home']"
+        class="link"
+        [ngClass]="{'selected': routeName === '/home'}">Home</li>
+        <li
+        [routerLink]="[ '/products']"
+        class="link"
+        [ngClass]="{'selected': routeName === '/products'}">Products</li>
+        <li
+        [routerLink]="[ '/about']"
+        class="link"
+        [ngClass]="{'selected': routeName === '/about'}">About</li>
     </ul>
 </nav>
 <router-outlet></router-outlet>

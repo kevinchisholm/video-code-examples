@@ -1,5 +1,7 @@
 import {Component, ViewEncapsulation} from '@angular/core';
 import {PackagesComponent} from '../packages/packages.component';
+import { Location } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'my-app',
@@ -13,8 +15,20 @@ import {PackagesComponent} from '../packages/packages.component';
 })
 export class AppComponent {
 
-  constructor () {   
+  routeName: string;
 
+  constructor (router: Router) {   
+    router.events.subscribe((val: any) => {
+      if (val
+        && val.url
+        && val.url !== '/') {
+        this.routeName = val.url;
+      } else if (val
+        && val.urlAfterRedirects,
+        val.urlAfterRedirects !== '/') {
+          this.routeName = val.urlAfterRedirects;
+      }
+    });
   }
 
   public ngOnInit () {

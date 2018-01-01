@@ -61,6 +61,10 @@ body {
   cursor: pointer;
 }
 
+#main-nav .selected{
+  background-color:#007042;
+}
+
 section {
     width: 90%;
     margin: 0 auto;
