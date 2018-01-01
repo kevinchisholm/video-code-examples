@@ -163,6 +163,28 @@ section.page-content .product-nested-route .details-container .descripton{
   vertical-align: top;
 }
 
+section.page-content .product-nested-route.product-details .pricing {
+  padding: 20px;
+}
+
+section.page-content .product-nested-route.product-details .pricing h2{
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffe8ff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+section.page-content .product-nested-route.product-details .pricing li{
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+section.page-content .product-nested-route.product-details .pricing li strong{
+  margin: 0 10px 0 0;
+  font-weight: bold;
+}
+
 section.page-content .product-nested-route.reviews h1{
   color: #015a6c;
 }
