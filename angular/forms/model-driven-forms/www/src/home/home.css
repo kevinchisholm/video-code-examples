@@ -1,0 +1,37 @@
+.form-container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container .field{
+  padding: 20px;
+  background-color: #ededed;
+}
+
+.form-container .field label{
+  font-weight: bold;
+  color: #087e7c;
+}
+
+.form-container .field input[type="text"]{
+  padding: 10px;
+  font-size: 14px;
+}
+
+.errorText {
+  font-weight: bold;
+  color: #800000;
+  padding: 5px;
+  background-color: #fcfc4b;
+}
+
+
+
+
+
+
+
