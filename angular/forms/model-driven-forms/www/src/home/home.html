@@ -50,37 +50,48 @@
       </form>
   </div>
   <div class="form-data-container">
-        <p class="keyVal">
+        <h2>Form Data</h2>
+        <p class="key-val">
             <strong class="key">Checkbox: </strong>
-            <span class="val">{{formData.checkboxSignUp || 'not checked'}}</span> 
+            <span
+            [ngClass]="{'bold-red': !formData.checkboxSignUp}"
+            class="val">{{formData.checkboxSignUp || 'not checked'}}</span>
         </p>
-        <p class="keyVal">
+        <p class="key-val">
             <strong class="key">Gender: </strong>
-            <span class="val">{{formData.gender || 'no selection'}}</span> 
+            <span
+            [ngClass]="{'bold-red': !formData.gender}"
+            class="val">{{formData.gender || 'no selection'}}</span>
         </p>
-        <p class="keyVal">
+        <p class="key-val">
             <strong class="key">First Name: </strong>
             <span
             [ngClass]="{'error': registerForm.controls.firstname.errors}"
-            class="val">{{formData.firstname || 'blank'}}</span> 
+            class="val">{{formData.firstname || 'blank'}}</span>
         </p>
-        <p class="keyVal">
+        <p class="key-val">
             <strong class="key">Last Name: </strong>
             <span
             [ngClass]="{'error': registerForm.controls.lastname.errors}"
-            class="val">{{formData.lastname || 'blank'}}</span> 
+            class="val">{{formData.lastname || 'blank'}}</span>
         </p>
-        <p class="keyVal">
+        <p class="key-val">
             <strong class="key">Street: </strong>
-            <span class="val">{{formData.address.street || 'blank'}}</span> 
+            <span
+            [ngClass]="{'bold-red': !formData.address.street}"
+            class="val">{{formData.address.street || 'blank'}}</span>
         </p>
-        <p class="keyVal">
+        <p class="key-val">
             <strong class="key">Zip: </strong>
-            <span class="val">{{formData.address.zip || 'blank'}}</span> 
+            <span
+            [ngClass]="{'bold-red': !formData.address.zip}"
+            class="val">{{formData.address.zip || 'blank'}}</span>
         </p>
-        <p class="keyVal">
+        <p class="key-val">
             <strong class="key">City: </strong>
-            <span class="val">{{formData.address.city || 'blank'}}</span> 
+            <span
+            [ngClass]="{'bold-red': !formData.address.city}"
+            class="val">{{formData.address.city || 'blank'}}</span>
         </p>     
   </div>
 </section>

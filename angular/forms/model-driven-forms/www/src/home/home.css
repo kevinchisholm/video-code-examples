@@ -40,7 +40,15 @@
 
 .form-data-container .key-val{
   padding: 10px;
-  background-color: #ededed;
+  background-color: #fff;
+}
+
+.form-data-container h2 {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #b4c7d8;
+  font-weight: bold;
+  color: #08457E;
 }
 
 .form-data-container .key{
@@ -51,6 +59,12 @@
 
 .form-data-container .val{
   font-style: italic;
+  color: #08457E;
+}
+
+.form-data-container .val.bold-red{
+  font-weight: bold;
+  color: #800000;
 }
 
 .form-data-container .val.error{
