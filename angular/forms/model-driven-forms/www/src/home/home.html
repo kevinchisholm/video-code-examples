@@ -49,4 +49,38 @@
           </div>
       </form>
   </div>
+  <div class="form-data-container">
+        <p class="keyVal">
+            <strong class="key">Checkbox: </strong>
+            <span class="val">{{formData.checkboxSignUp || 'not checked'}}</span> 
+        </p>
+        <p class="keyVal">
+            <strong class="key">Gender: </strong>
+            <span class="val">{{formData.gender || 'no selection'}}</span> 
+        </p>
+        <p class="keyVal">
+            <strong class="key">First Name: </strong>
+            <span
+            [ngClass]="{'error': registerForm.controls.firstname.errors}"
+            class="val">{{formData.firstname || 'blank'}}</span> 
+        </p>
+        <p class="keyVal">
+            <strong class="key">Last Name: </strong>
+            <span
+            [ngClass]="{'error': registerForm.controls.lastname.errors}"
+            class="val">{{formData.lastname || 'blank'}}</span> 
+        </p>
+        <p class="keyVal">
+            <strong class="key">Street: </strong>
+            <span class="val">{{formData.address.street || 'blank'}}</span> 
+        </p>
+        <p class="keyVal">
+            <strong class="key">Zip: </strong>
+            <span class="val">{{formData.address.zip || 'blank'}}</span> 
+        </p>
+        <p class="keyVal">
+            <strong class="key">City: </strong>
+            <span class="val">{{formData.address.city || 'blank'}}</span> 
+        </p>     
+  </div>
 </section>

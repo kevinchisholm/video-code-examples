@@ -8,9 +8,11 @@ import { FormGroup, FormControl, FormBuilder, Validators} from '@angular/forms';
 })
 export class HomeComponent {
   registerForm: FormGroup;
+  formData: any = {address: {}};
 
-	constructor(private formBuilder: FormBuilder) {}
-
+	constructor(private formBuilder: FormBuilder) {
+ 
+  }
 
   ngOnInit() {
     this.registerForm = this.formBuilder.group({
@@ -26,8 +28,10 @@ export class HomeComponent {
     });
 
     this.registerForm.valueChanges.subscribe((value: any) => {
-      console.warn('HRE -> valueChanges -> ');
-      console.dir(value);
+      this.formData = value;
+
+      console.warn('HRE -> valueChanges -> this.formData');
+      console.dir(this.formData);
     });
   }
 }

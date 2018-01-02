@@ -28,7 +28,7 @@ body {
 }
 
 .banner-app {
-    padding: 20px;
+    padding: 10px;
     background-color:#08457E;
     color: #fff;
     font-weight: bold;
@@ -42,11 +42,9 @@ body {
 }
 
 .banner-app img{
-  position: relative;
   display: block;
   float: left;
   width: 50px;
-  top: 10px
 }
 
 #main-nav {
