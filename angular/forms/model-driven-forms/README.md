@@ -1,7 +1,7 @@
-[![Angular Logo](https://www.frontendvideo.org/wp-content/uploads/angular-logo-200-200x160.png)](https://www.frontendvideo.org/angular/http-get/)
+[![Angular Logo](https://sub1.kevinchisholm.com/blog/images/angularjs-logo-small.png)](https://blog.kevinchisholm.com/angular/model-driven-forms-basics/)
 
-# Angular http.get Basics
-## Code examples for My YouTube Channel's Video Angular routing posts: https://www.youtube.com/user/kevinchisholmvideo/search?query=angular
+# Angular Model Driven Forms – Basics
+## Code examples for my blog post: https://blog.kevinchisholm.com/angular/model-driven-forms-basics/
 
 # How to run the example code:
 
@@ -13,7 +13,7 @@ git clone git@github.com:kevinchisholm/video-code-examples.git
 ##  2 - Go to this folder in your terminal:
 
 ```
-angular/http/http-get-basics
+angular/forms/model-driven-forms/
 ```
 
 ## 3 - Install dependencies:
