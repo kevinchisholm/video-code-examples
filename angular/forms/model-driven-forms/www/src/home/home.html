@@ -1,0 +1,97 @@
+<section class="page-content">
+  <div class="form-container">
+      <form [formGroup]="registerForm">
+          <div class="field checkbox">
+              <label>Add me to your mailing list:</label>
+              <input type="checkbox" formControlName="checkboxSignUp">
+          </div>
+
+          <div class="field radio">
+              <input type="radio" value="male" formControlName="gender"><span>Male</span>
+              <input type="radio" value="female" formControlName="gender"><span>Female</span>
+          </div>
+
+          <div class="field">
+              <label>First Name:</label>
+              <input type="text" formControlName="firstname">
+              <span
+              class="errorText"
+              *ngIf="registerForm.controls.firstname.errors">First Name required!</span>
+          </div>
+
+          <div class="field">
+              <label>Last Name:</label>
+              <input type="text" formControlName="lastname">
+              <span
+              class="errorText"
+              *ngIf="registerForm.controls.lastname.errors">Last Name required!</span>
+          </div>
+
+          <fieldset formGroupName="address">
+            <div class="field">
+                <label>Street:</label>
+                <input type="text" formControlName="street">
+            </div>
+
+            <div class="field">
+                <label>Zip:</label>
+                <input type="text" formControlName="zip">
+            </div>
+
+            <div class="field">
+                <label>City:</label>
+                <input type="text" formControlName="city">
+            </div>
+          </fieldset>
+
+          <div class="field">
+              <button type="submit">Submit</button>
+          </div>
+      </form>
+  </div>
+  <div class="form-data-container">
+        <h2>Form Data</h2>
+        <p class="key-val">
+            <strong class="key">Checkbox: </strong>
+            <span
+            [ngClass]="{'bold-red': !formData.checkboxSignUp}"
+            class="val">{{formData.checkboxSignUp || 'not checked'}}</span>
+        </p>
+        <p class="key-val">
+            <strong class="key">Gender: </strong>
+            <span
+            [ngClass]="{'bold-red': !formData.gender}"
+            class="val">{{formData.gender || 'no selection'}}</span>
+        </p>
+        <p class="key-val">
+            <strong class="key">First Name: </strong>
+            <span
+            [ngClass]="{'error': registerForm.controls.firstname.errors}"
+            class="val">{{formData.firstname || 'blank'}}</span>
+        </p>
+        <p class="key-val">
+            <strong class="key">Last Name: </strong>
+            <span
+            [ngClass]="{'error': registerForm.controls.lastname.errors}"
+            class="val">{{formData.lastname || 'blank'}}</span>
+        </p>
+        <p class="key-val">
+            <strong class="key">Street: </strong>
+            <span
+            [ngClass]="{'bold-red': !formData.address.street}"
+            class="val">{{formData.address.street || 'blank'}}</span>
+        </p>
+        <p class="key-val">
+            <strong class="key">Zip: </strong>
+            <span
+            [ngClass]="{'bold-red': !formData.address.zip}"
+            class="val">{{formData.address.zip || 'blank'}}</span>
+        </p>
+        <p class="key-val">
+            <strong class="key">City: </strong>
+            <span
+            [ngClass]="{'bold-red': !formData.address.city}"
+            class="val">{{formData.address.city || 'blank'}}</span>
+        </p>     
+  </div>
+</section>
