@@ -1,6 +1,6 @@
 [![Angular Logo](https://sub1.kevinchisholm.com/blog/images/angularjs-logo-small.png)](https://blog.kevinchisholm.com/angular/child-parent-communication-viewchild/)
 
-# Angular Routing Basics
+# Angular Child to Parent Communication with @ViewChild()
 Code examples for the post: https://blog.kevinchisholm.com/angular/child-parent-communication-viewchild/
 
 # How to run the example code:
