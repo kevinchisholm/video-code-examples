@@ -1,4 +1,4 @@
-[![Angular Logo](https://sub1.kevinchisholm.com/blog/images/angularjs-logo-small.png)](https://blog.kevinchisholm.com/angular/child-parent-communication-viewchild/)
+[![Angular Logo](https://sub1.kevinchisholm.com/blog/images/angularjs-logo-100.png)](https://blog.kevinchisholm.com/angular/child-parent-communication-viewchild/)
 
 # Angular Child to Parent Communication with @ViewChild()
 Code examples for the post: https://blog.kevinchisholm.com/angular/child-parent-communication-viewchild/
