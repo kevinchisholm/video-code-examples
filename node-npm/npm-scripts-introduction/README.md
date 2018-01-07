@@ -1,4 +1,4 @@
-[![NPM Logo](https://sub1.kevinchisholm.com/blog/images/npm-logo.png)](https://blog.kevinchisholm.com)
+[![NPM Logo](http://sub1.kevinchisholm.com/blog/images/npm-logo-100.png)](https://blog.kevinchisholm.com)
 
 # Getting started with npm scripts
 
