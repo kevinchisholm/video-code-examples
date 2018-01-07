@@ -1,0 +1,7 @@
+{
+  "name" : "firstNodeJsModuleExample",
+  "version" : "0.0.1",
+  "dependencies" : {
+    "dateTools": "file:my_modules/dateTools"
+  }
+}
