@@ -17,6 +17,11 @@
 ```
 git clone git@github.com:kevinchisholm/video-code-examples.git
 ```
+#### Move into the project directory
+
+```
+cd video-code-examples/node-express/sending-multiple-http-responses
+```
 
 #### Install Dependencies:
 
