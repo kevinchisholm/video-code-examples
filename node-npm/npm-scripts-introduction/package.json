@@ -1,0 +1,20 @@
+{
+  "name": "npm-scripts-example",
+  "version": "1.0.0",
+  "devDependencies": {
+    "delete": "0.3.2 ",
+    "gulp": "3.9.1",
+    "gulp-coffee": "2.3.2",
+    "gulp-sass": "2.3.2",
+    "gulp-uglify": "2.0.0"
+  },
+  "scripts" : {
+  	"build:sass": "gulp sass",
+  	"build:coffee": "gulp coffee",
+  	"build:js": "gulp uglify",
+    "build": "npm run build:sass && npm run build:js && npm run build:coffee",
+    "clean": "node ./clean.js",
+    "serve" : "node ./index.js",
+  	"start": "npm run build && npm run serve"
+  }
+}
