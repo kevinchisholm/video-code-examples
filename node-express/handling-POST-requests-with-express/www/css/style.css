@@ -1,0 +1,137 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+.home article{
+	position: relative;
+	width: 60%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #ededed;
+	border-radius: 5px;
+	text-align: center;
+	-webkit-box-shadow: 10px 10px 43px -4px rgba(133,126,133,1);
+	-moz-box-shadow: 10px 10px 43px -4px rgba(133,126,133,1);
+	box-shadow: 10px 10px 43px -4px rgba(133,126,133,1);
+}
+
+.home h1, .home h2, .home h3 .home h4 .home h5{
+	margin: 20px 0;
+}
+
+.home h1{
+	font-size: 5.9vw;
+	color: #002366;
+}
+
+.home h2{
+	font-size: 2.9vw;
+	color: #002366;
+}
+
+.home nav{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 10px;
+	background-color: #002366;
+}
+
+.home nav a {
+	margin-left: 10px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.home p, .home li {
+	font-size: 22px;
+}
+
+.textLeft{
+	text-align: left;
+}
+
+.logo{
+	display: block;
+	width: 20%;
+	margin: 20px auto;
+}
+
+.small {
+	width: 20%;
+}
+
+.floatLeft {
+	float: left;
+	margin: 12px 12px 0 0;
+}
+
+#main{
+	padding: 20px;
+}
+
+form {
+	text-align: left;
+}
+
+#testForm {
+	margin-top: 40px;
+}
+
+input, label, button{
+	display: block;
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+label{
+	font-weight: bold;
+}
+
+input[type="text"]{
+	height: 32px;
+	width: 400px;
+}
+
+#post-results-container {
+	display: none;
+	clear: both;
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #002366;
+	border-radius: 5px;
+}
+
+#post-results-container .data {
+	margin-top: 20px;
+}
+
+#post-results-container .data li{
+	margin-top: 20px;
+}
+
+#post-results-container .data b{
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+#submitButton{
+	display: inline-block;
+}
+
+.ajaxLoader{
+	display: none;
+	margin-left: 10px;
+}
+
+.nodeLogo {
+	width: 150px2
+}
+
+@media screen and (max-width : 568px) {
+	nav{
+		position: static;
+	}
+}
+
