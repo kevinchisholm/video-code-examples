@@ -1,4 +1,4 @@
-[![Node.Js Connect Logo](https://sub1.kevinchisholm.com/blog/images/node-js-logo.png)](https://blog.kevinchisholm.com/javascript/node-js/express-js/sending-multiple-http-responses/)
+[![Node.Js Connect Logo](https://sub1.kevinchisholm.com/blog/images/node-js-logo-200.png)](https://blog.kevinchisholm.com/javascript/node-js/express-js/sending-multiple-http-responses/)
 
 # Sending multiple HTTP responses with Express.js
 
