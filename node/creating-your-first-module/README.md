@@ -37,6 +37,7 @@ npm install
 
 #### Example # 1:
 
-* node example-1.js
-
+```
+node example-1.js
+```
 
