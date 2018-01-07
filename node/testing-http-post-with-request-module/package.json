@@ -1,0 +1,11 @@
+{
+  "name"         : "easy-http-post-testing-with-the-request-module",
+  "version"      : "0.0.1",
+  "description"  : "Easy HTTP POST testing with the request module.",
+  "author"       : "Kevin Chisholm",
+  "dependencies" : {
+    "request"    : "latest",
+    "body-parser": "^1.15.2",
+    "express": "4.14.0"
+  }
+}
