@@ -1,0 +1,9 @@
+{
+  "name"         : "sending-multiple-http-responses-with-express.js",
+  "version"      : "1.0.0",
+  "description"  : "Sending multiple HTTP responses with Express.js.",
+  "author"       : "Kevin Chisholm",
+  "dependencies" : {
+    "express": "4.14.0"
+  }
+}
