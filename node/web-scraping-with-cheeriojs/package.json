@@ -1,0 +1,10 @@
+{
+  "name": "node-web-scraping-with-cheerio",
+  "version": "0.0.1",
+  "description": "Web Scraping with Node and Cheerio.js example code.",
+  "author": "Kevin Chisholm",
+  "dependencies": {
+    "request": "latest",
+    "cheerio": "latest"
+  }
+}
