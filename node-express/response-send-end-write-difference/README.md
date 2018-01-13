@@ -2,7 +2,7 @@
 
 # Sending multiple HTTP responses with Express.js
 
-## Code Examples for my Blog Post: [Express.js – Sending Multiple HTTP Responses](https://blog.kevinchisholm.com/javascript/node-js/express-js/sending-multiple-http-responses/)
+## Code Examples for my Blog Post: [What is the Difference Between response.send(), response.end() and response.write() ?](https://blog.kevinchisholm.com/javascript/node-js/express-js/sending-multiple-http-responses/)
 
 ## What you need to run the example code:
 
@@ -20,7 +20,7 @@ git clone git@github.com:kevinchisholm/video-code-examples.git
 #### Move into the project directory
 
 ```
-cd video-code-examples/node-express/sending-multiple-http-responses
+cd video-code-examples/node-express/esponse-send-end-write-difference
 ```
 
 #### Install Dependencies:
