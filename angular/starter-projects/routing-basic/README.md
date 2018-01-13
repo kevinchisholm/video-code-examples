@@ -1,8 +1,8 @@
 [![Angular Logo](https://sub1.kevinchisholm.com/blog/images/angularjs-logo-small.png)](https://www.youtube.com/user/kevinchisholmvideo/search?query=angular)
 
-# Code examples for My YouTube Channel's Video Angular routing posts: 
+# Code examples for My Blog Post: Angular Starter Project with Basic Routing 
 
-https://www.youtube.com/user/kevinchisholmvideo/search?query=angular
+https://blog.kevinchisholm.com/angular/starter-project-basic-routing/
 
 # How to run the example code:
 
