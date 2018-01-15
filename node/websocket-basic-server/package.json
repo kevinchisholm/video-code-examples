@@ -1,0 +1,12 @@
+{
+  "name": "node-express-websockets-basic",
+  "version": "1.0.0",
+  "description": "Basic Websockets server using Node.js, Express.js and ws; a Node.js WebSocket library",
+  "main": "index.js",
+  "author": "Kevin Chisholm",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "ws": "^4.0.0"
+  }
+}
