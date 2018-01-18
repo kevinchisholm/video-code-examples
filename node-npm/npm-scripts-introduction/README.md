@@ -18,15 +18,10 @@ What you need to run this app:
 git clone git@github.com:kevinchisholm/video-code-examples.git
 ````
 
-* Clone this repo:
-
-````
-git clone git@github.com:kevinchisholm/video-code-examples.git
-````
 * Move into the project directory:
 
 ```
-cd [ideo-code-examples/node-npm/npm-scripts-introduction
+cd video-code-examples/node-npm/npm-scripts-introduction
 ```
 
 * Run this command:
