@@ -15,8 +15,19 @@ What you need to run this app:
 * Clone this repo:
 
 ````
-git clone https://github.com/kevinchisholm/getting-started-with-npm-scripts.git
+git clone git@github.com:kevinchisholm/video-code-examples.git
 ````
+
+* Clone this repo:
+
+````
+git clone git@github.com:kevinchisholm/video-code-examples.git
+````
+* Move into the project directory:
+
+```
+cd [ideo-code-examples/node-npm/npm-scripts-introduction
+```
 
 * Run this command:
 
