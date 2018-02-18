@@ -29,6 +29,9 @@ export class HomeComponent {
 
     this.registerForm.valueChanges.subscribe((value: any) => {
       this.formData = value;
+
+      console.warn('registerForm.valueChanges: value');
+      console.dir(value);
     });
   }
 }
