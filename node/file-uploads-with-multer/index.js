@@ -1,4 +1,4 @@
-const serverPort = 3000,
+var serverPort = 3000,
     express = require('express'),
     multer = require('multer'),
     upload = multer({dest: 'uploads/'}),
