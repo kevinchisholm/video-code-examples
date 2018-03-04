@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "ejs": "^2.5.7",
     "express": "^4.16.2",
     "multer": "^1.3.0"
   }
