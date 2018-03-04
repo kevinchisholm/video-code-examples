@@ -4,16 +4,15 @@ const serverPort = 3000,
     upload = multer({dest: 'uploads/'}),
     app = express();
 
-//set the view engine
-app.set('view engine', 'ejs')
+//set the static folder
+app.use(express.static('static'));
 
 //add a handler for the GET / route
-app.get('/', (req, res) => res.render('home'))
+app.get('/', (req, res) => res.render('home'));
 
 //add a handler for the POST / route
 app.post('/', upload.single('img'), (req, res) => {
     //for demonstration purposes only:
-    console.log(req.body);
     console.log(req.file);
 
     //send a response to the client
