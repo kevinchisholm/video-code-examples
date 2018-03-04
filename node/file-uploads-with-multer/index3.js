@@ -31,9 +31,6 @@ upload = multer({storage});
 //set the static folder
 app.use(express.static('static'));
 
-//add a handler for the GET / route
-app.get('/', (req, res) => res.render('home'));
-
 //add a handler for the POST / route
 app.post('/', upload.single('img'), (req, res) => {
     //for demonstration purposes only:
@@ -41,9 +38,9 @@ app.post('/', upload.single('img'), (req, res) => {
 
     //send a response to the client
     res.send('<h2>File upload succeeded.</h2><a href="/">Upload another file<a>');
-})
+});
 
 //start the web server
 app.listen(serverPort, () => {
     console.log('server running on http://localhost:' + serverPort);
-})
+});
